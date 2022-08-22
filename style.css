@@ -19,11 +19,12 @@ body{
 }
 .calc_grid button{
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.5rem;
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .80);
-    padding: 25px;   
+    padding: 10px ;   
+    
 }
 .calc_grid button:hover{
     background-color: rgba(255, 255, 255, .95);
@@ -38,15 +39,15 @@ body{
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 40px ;
+    padding: 20px ;
     word-wrap: break-word;
     word-break: break-all;
 }
 .result .previous-operand{
     color: rgba(255, 255, 255, .75);
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .result .current-operand{
     color: white;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
